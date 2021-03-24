@@ -207,3 +207,154 @@ p
     color: white;
     border-color: #0065fc;
 }
+
+/* Hébergement */
+.cannebiere
+{
+    background-image: url(../Images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg);
+}
+
+.hotelport
+{
+    background-image: url(../Images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg);
+}
+
+.hotelmouettes
+{
+    background-image: url(../Images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg);
+}
+
+.hotelmer
+{
+    background-image: url(../Images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg);
+}
+
+.aubergepanier
+{
+    background-image: url(../Images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg);
+}
+
+.hotelamina
+{
+    background-image: url(../Images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg);
+}
+
+.results
+{
+    margin-bottom: 60px;
+}
+
+.results small
+{
+    display: flex;
+    align-items: center;
+    font-size: 0.75rem;
+    margin-bottom: 35px;
+}
+
+.results span
+{
+    text-align: center;
+}
+
+.fa-info
+{
+    height: 20px;
+    width: 20px;
+    align-items: center;
+    color: #0065fc;
+    background-color: #deebff;
+    border: 1px solid #f2f2f2;
+    border-radius: 50px;
+    padding-top: 5px;
+    margin-right: 10px;
+}
+
+.containerresults
+{
+    display: flex;
+    justify-content: space-between;
+    max-height: 630px;
+}
+
+.resultscontainer
+{
+    display: flex;
+    flex-direction: column;
+    max-width: 950px;
+    padding: 40px 0;
+    margin-right: 20px;
+    background-color: #f2f2f2;
+    border-radius: 15px;
+}
+
+.resultscontainer h2
+{
+    padding-left: 40px;
+}
+
+.containercard
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 10px 0;
+}
+
+.cardlink
+{
+    margin: 15px 0 20px 0;
+}
+
+.card
+{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 13px 0px rgba(0, 0, 0, 0.247);
+}
+
+.cardmain
+{
+    padding: 5px 5px 10px 5px;
+}
+
+.card h4
+{
+    padding-left: 12px;
+    margin: 2px 0 0 0;
+}
+
+.card p
+{
+    font-size: 0.8rem;
+    padding-left: 12px;
+    margin: 6px 0;
+}
+
+.card .star
+{
+    padding-left: 10px;
+    color: #0065fc;
+}
+
+.stargrey
+{
+    color: #f2f2f2;
+}
+
+.imgmain
+{
+    width: 235px;
+    height: 115px;
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.more
+{
+    font-size: 1.05rem;
+    font-weight: bold;
+    padding-left: 40px;
+}
