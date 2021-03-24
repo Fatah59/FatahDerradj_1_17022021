@@ -358,3 +358,68 @@ p
     font-weight: bold;
     padding-left: 40px;
 }
+
+/* Populaire */
+.hotelsoleil
+{
+    background-image: url(../Images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg);
+}
+
+.chambrecoeureau
+{
+    background-image: url(../Images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg);
+}
+
+.hotelbleublanc
+{
+    background-image: url(../Images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg);
+}
+
+.popular
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 450px;
+    margin-left: 30px;
+    padding: 40px 20px 0 20px;
+    background-color: #f2f2f2;
+    border-radius: 15px;
+}
+
+.popular .fa-chart-line
+{
+    margin-left: 115px;
+}
+
+.popular .containercard
+{
+    flex-direction: column;
+}
+
+.cardpopular
+{
+    display: flex;
+    height: 135px;
+    width: 335px;
+    padding: 5px;
+}
+
+.imgpopular
+{
+    height: 135px;
+    width: 125px;
+    background-size: cover;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 1àpx;
+}
+
+.card:hover
+{
+    box-shadow: none;
+}
+
+.card-title p
+{
+    margin-bottom: 25%;
+}
