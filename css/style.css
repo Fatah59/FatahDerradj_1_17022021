@@ -411,7 +411,7 @@ p
     width: 125px;
     background-size: cover;
     border-bottom-left-radius: 10px;
-    border-top-left-radius: 1àpx;
+    border-top-left-radius: 10px;
 }
 
 .card:hover
