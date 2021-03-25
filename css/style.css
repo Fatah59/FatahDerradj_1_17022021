@@ -96,6 +96,11 @@ p
 
 .search-filter
 {
+    margin-bottom: 35px;
+}
+
+.search-bar
+{
     display: flex;
     margin-bottom: 3%;
 }
@@ -153,7 +158,7 @@ p
 
 /* Filtres */
 
-.search-filter
+.filter
 {
     display: flex;
     flex-direction: row;
@@ -208,6 +213,26 @@ p
     border-color: #0065fc;
 }
 
+.filters-info
+{
+    display: flex;
+    align-items: center;
+}
+
+.fa-info
+{
+    height: 22px;
+    width: 22px;
+    align-items: center;
+    color: #0065fc;
+    background-color: #deebff;
+    border: 1px solid #f2f2f2;
+    border-radius: 50px;
+    padding-top: 5px;
+    margin-right: 10px;
+}
+
+
 /* Hébergement */
 .cannebiere
 {
@@ -255,19 +280,6 @@ p
 .results span
 {
     text-align: center;
-}
-
-.fa-info
-{
-    height: 20px;
-    width: 20px;
-    align-items: center;
-    color: #0065fc;
-    background-color: #deebff;
-    border: 1px solid #f2f2f2;
-    border-radius: 50px;
-    padding-top: 5px;
-    margin-right: 10px;
 }
 
 .containerresults
@@ -524,4 +536,60 @@ a:hover
 {
     color: #0065fc;
 }
+
+/* Footer */
+
+footer
+{
+    width: 100%;
+    background-color: #f2f2f2;
+}
+
+.footercontent
+{
+    display: flex;
+    max-width: 1350px;
+    margin: auto;
+}
+
+.footercontent div
+{
+    margin-right: 230px;
+    padding-bottom: 30px;
+}
+
+footer h3
+{
+    padding: 45px 0 10px 0;
+}
+
+footer ul
+{
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li
+{
+    font-size: 1.06rem;
+    padding: 10px 0;
+}
+
+footer ul li a
+{
+    text-decoration: none;
+    color: black;
+}
+
+footer ul li a:hover
+{
+    color: #0065fc;
+}
+
+h3
+{
+    font-size: 1.06rem;
+    font-weight: bold;
+}
+
 
