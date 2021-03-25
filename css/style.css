@@ -358,3 +358,170 @@ p
     font-weight: bold;
     padding-left: 40px;
 }
+
+/* Populaire */
+.hotelsoleil
+{
+    background-image: url(../Images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg);
+}
+
+.chambrecoeureau
+{
+    background-image: url(../Images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg);
+}
+
+.hotelbleublanc
+{
+    background-image: url(../Images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg);
+}
+
+.popular
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 450px;
+    margin-left: 30px;
+    padding: 40px 20px 0 20px;
+    background-color: #f2f2f2;
+    border-radius: 15px;
+}
+
+.popular .fa-chart-line
+{
+    margin-left: 115px;
+}
+
+.popular .containercard
+{
+    flex-direction: column;
+}
+
+.cardpopular
+{
+    display: flex;
+    height: 135px;
+    width: 335px;
+    padding: 5px;
+}
+
+.imgpopular
+{
+    height: 135px;
+    width: 125px;
+    background-size: cover;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.card:hover
+{
+    box-shadow: none;
+}
+
+.card-title p
+{
+    margin-bottom: 25%;
+}
+
+/* Activités */
+.activities
+{
+    margin-bottom: 60px;
+}
+
+.contentactivities
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-between;
+    height: 445px;
+    margin-top: 25px;
+}
+
+.card-activity
+{
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.247);
+}
+
+.pic-activity
+{
+    width: 300px;
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-activity h4
+{
+    padding: 15px 20px;
+    margin: 0;
+}
+
+.card-activity:hover
+{
+    box-shadow: none;
+}
+
+.act1
+{
+    background-image: url(../Images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg);
+    height: 395px;
+}
+
+.act2
+{
+    background-image: url(../Images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg);
+    height: 180px;
+}
+
+.act3
+{
+    background-image: url(../Images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg);
+    height: 110px;
+}
+
+.act4
+{
+    background-image: url(../Images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg);
+    height: 395px;
+}
+
+.act5
+{
+    background-image: url(../Images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg);
+    height: 140px;
+}
+
+.act6
+{
+    background-image: url(../Images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg);
+    height: 155px;
+}
+
+h4
+{
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+p
+{
+    font-size: 0.8rem;
+}
+
+a
+{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover
+{
+    color: #0065fc;
+}
+
