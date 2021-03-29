@@ -221,6 +221,8 @@ p
 
 .fa-info
 {
+    display: flex;
+    justify-content: center;
     height: 22px;
     width: 22px;
     align-items: center;
@@ -228,7 +230,6 @@ p
     background-color: #deebff;
     border: 1px solid #f2f2f2;
     border-radius: 50px;
-    padding-top: 5px;
     margin-right: 10px;
 }
 
@@ -351,7 +352,7 @@ p
 
 .stargrey
 {
-    color: #f2f2f2;
+    color: #d9d9d9;
 }
 
 .imgmain
@@ -377,7 +378,7 @@ p
     background-image: url(../Images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg);
 }
 
-.chambrecoeureau
+.coeureauchambres
 {
     background-image: url(../Images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg);
 }
@@ -422,6 +423,7 @@ p
     height: 135px;
     width: 125px;
     background-size: cover;
+    background-position: center;
     border-bottom-left-radius: 10px;
     border-top-left-radius: 10px;
 }
@@ -479,37 +481,37 @@ p
     box-shadow: none;
 }
 
-.act1
+.number1
 {
     background-image: url(../Images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg);
     height: 395px;
 }
 
-.act2
+.number2
 {
     background-image: url(../Images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg);
     height: 180px;
 }
 
-.act3
+.number3
 {
     background-image: url(../Images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg);
     height: 110px;
 }
 
-.act4
+.number4
 {
     background-image: url(../Images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg);
     height: 395px;
 }
 
-.act5
+.number5
 {
     background-image: url(../Images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg);
     height: 140px;
 }
 
-.act6
+.number6
 {
     background-image: url(../Images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg);
     height: 155px;
