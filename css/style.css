@@ -69,16 +69,16 @@ header nav p a
 
 header nav p a:hover
 {
-    padding-bottom: 10px;
+    padding-top: 10px;
     color: black;
-    border-bottom: solid 1px #0065fc;
+    border-top: solid 1px #0065fc;
 }
 
 nav ul li a:hover
 {
-    padding-bottom: 10px;
+    padding-top: 10px;
     color: #0065fc;
-    border-bottom: solid 1px #0065fc;
+    border-top: solid 1px #0065fc;
 }
 
 h2
@@ -90,6 +90,11 @@ h2
 p
 {
     font-size: 0.8rem;
+}
+
+.headertitle
+{
+    flex-basis: 100%;
 }
 
 /* Search */
@@ -594,4 +599,189 @@ h3
     font-weight: bold;
 }
 
+/* Media Queries */
 
+/* header */
+@media all and (max-width: 1200px)
+{
+    header img
+    {
+        padding: 0;
+        margin-left: 40px;
+    }
+
+    header
+    {
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 30px;
+    }
+
+    nav
+    {
+        display: flex;
+        flex-basis: 100%;
+        order: 2;
+    }
+
+    nav li 
+    {
+        width: 80px;
+        text-align: center;
+        border-top: none;
+
+    }
+
+    nav ul li
+    {
+        width: 50%;
+        text-align: center;
+        padding: 15px 0;
+        border-bottom: 3px solid #f2f2f2;
+    }
+
+    nav ul .li-lod a, nav ul .li-act a
+    {
+        justify-content: center;
+        text-align: center;
+    }
+
+    nav ul .li-lod a
+    {
+        padding-right: 80px;
+        padding-left: 20px;
+    }
+
+    nav ul .li-act a
+    {
+        padding-right: 40px;
+    }
+
+    nav ul li:hover 
+    {
+        border-bottom: 3px solid #0065fc;
+    }
+
+    nav ul li a:hover 
+    {
+        border-top: hidden;
+    }
+
+    nav li a 
+    {
+        margin-right: 30px;
+        margin-left: 50px;
+    }
+
+    header nav 
+    {
+        position: relative;
+    }
+
+    header nav p 
+    {
+        position: absolute;
+        top: -65px;
+    }
+
+    .headertitle
+    {
+        order: 3;
+        text-align: center;
+        margin: 20px 0 0;
+    }
+
+    .headertitle h2 
+    {
+        font-size: 20px;
+    }
+
+    .headertitle p 
+    {
+        font-size: 15px;
+        margin: 10px 50px 10px;
+    }
+}
+
+@media all and (min-width: 375px) and (max-width: 767px)
+{
+    .headertitle h2 
+    {
+        margin: 20px 50px 0;
+    }
+}
+
+/* Search */
+
+@media all and (max-width: 1200px)
+{
+    .search-filter
+    {
+        margin: 5px 5px 5px 5px;
+    }
+
+    .search-bar
+    {
+        margin: 0;
+    }
+
+    .city
+    {
+        width: 190px;
+    }
+
+    .btnsearch
+    {
+        display: block;
+        height: 50px;
+        width: 50px;
+        border: none;
+        border-radius: 10px 10px 10px 10px;
+        background-color: #0065fc;
+        color: white;
+    }
+
+    .btnsearch span 
+    {
+        display: none;
+    }
+
+    .btnsearch .fa-search 
+    {
+        display: block;
+        color: white;
+    }
+
+    .btnsearch .fa-search:hover 
+    {
+        color: #0065fc;
+        background-color: #deebff;
+        border: 1px solid #0065fc;
+    }
+
+    .filter
+    {
+        padding: 0 10px 0 20px;
+    }
+
+    .filter button 
+    {
+        margin: 0 10px 12px 0;
+        font-size: 0.9rem;
+    }
+
+    .filter h3 
+    {
+        flex-basis: 100%;
+    }
+}
+
+@media all and (min-width: 375px) and (max-width: 767px)
+{
+    .filter 
+    {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
