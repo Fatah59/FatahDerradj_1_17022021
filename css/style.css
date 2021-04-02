@@ -703,7 +703,7 @@ h3
     }
 }
 
-@media all and (min-width: 375px) and (max-width: 767px)
+@media all and (min-device-width: 375px) and (max-device-width: 767px)
 {
     .headertitle h2 
     {
@@ -776,7 +776,7 @@ h3
     }
 }
 
-@media all and (min-width: 375px) and (max-width: 767px)
+@media all and (min-device-width: 375px) and (max-device-width: 767px)
 {
     .filter 
     {
@@ -785,3 +785,156 @@ h3
         flex-wrap: wrap;
     }
 }
+
+/* Hébergement */
+
+@media all and (max-width: 1200px)
+{
+    .containerresults
+    {
+        flex-direction: column-reverse;
+        max-height: none;
+    }
+
+    .popular
+    {
+        width: auto;
+        margin: 0;
+        border-radius: 0;
+    }
+
+    .popular h2 
+    {
+        padding-bottom: 25px;
+    }
+
+    .popular .containercard
+    {
+        margin: 0 20px;
+    }
+
+    .popular .cardlink
+    {
+        margin: 5px 0;
+    }
+
+    .resultscontainer
+    {
+        background: none;
+    }
+
+    .resultscontainer h2 
+    {
+        padding: 0;
+        margin-left: 20px;
+    }
+
+    .more
+    {
+        padding: 0;
+        margin-left: 20px;
+    }
+
+    .imgmain
+    {
+        height: 115px;
+        width: 325px;
+    }
+
+    .resultscontainer .cardlink
+    {
+        margin: 5px 0;
+    }
+}
+
+@media all and (min-width: 1024px) and (max-width: 1200px)
+{
+    .popular
+    {
+        align-items: center;
+    }
+
+    .cardpopular
+    {
+        width: 315px;
+    }
+
+    .popular .cardlink
+    {
+        margin: 5px;
+    }
+}
+
+@media all and (min-width: 768px) and (max-width: 1200px)
+{
+    .popular
+    {
+        align-items: flex-start;
+    }
+
+    .popular .containercard
+    {
+        flex-direction: row;
+        justify-content: flex-start;
+        margin: 0;
+    }
+
+    .popular .cardlink
+    {
+        margin: 5px 10px;
+    }
+
+    .popular h2 
+    {
+        margin-left: 10px;
+    }
+
+    .popular .fa-chart-line
+    {
+        margin-left: 20px;
+    }
+
+    .resultscontainer
+    {
+        align-self: center;
+    }
+
+    .resultscontainer .containercard
+    {
+        justify-content: space-between;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+@media all and (min-device-width: 375px) and (max-device-width: 767px)
+{
+    .popular
+    {
+        padding: 40px 20px;
+        width: max-content;
+        margin: auto;
+    }
+
+    .resultscontainer
+    {
+        margin: 0;
+        padding-left: 12px;
+    }
+
+    .cardpopular
+    {
+        width: 305px;
+    }
+
+    .popular .fa-chart-line
+    {
+        margin-left: 100px;
+    }
+
+    .imgmain
+    {
+        width: 305px;
+    }
+}
+
