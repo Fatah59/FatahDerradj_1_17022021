@@ -23,6 +23,11 @@
         order: 2;
     }
 
+    nav ul 
+    {
+        width: 100%;
+    }
+
     nav li 
     {
         width: 80px;
@@ -80,7 +85,7 @@
     header nav p 
     {
         position: absolute;
-        top: -65px;
+        top: -95px;
     }
 
     .headertitle
@@ -122,6 +127,7 @@
     .search-bar
     {
         margin: 0;
+        justify-content: center;
     }
 
     .city
@@ -225,13 +231,13 @@
     .resultscontainer h2 
     {
         padding: 0;
-        margin-left: 20px;
+        text-align: center;
     }
 
     .more
     {
         padding: 0;
-        margin-left: 20px;
+        text-align: center;
     }
 
     .imgmain
@@ -274,8 +280,7 @@
     .popular .containercard
     {
         flex-direction: row;
-        justify-content: flex-start;
-        margin: 0;
+        margin-bottom: 40px;
     }
 
     .popular .cardlink
@@ -300,7 +305,6 @@
 
     .resultscontainer .containercard
     {
-        justify-content: space-between;
         margin-left: 10px;
         margin-right: 10px;
     }
@@ -343,7 +347,7 @@
 {
     .activities h2 
     {
-        padding-left: 20px;
+        text-align: center;
     }
 
     .contentactivities
@@ -382,7 +386,6 @@
 {
     .contentactivities
     {
-        justify-content: space-between;
         margin-left: 10px;
         margin-right: 10px;
     }
