@@ -79,13 +79,13 @@ header nav p a
 header nav p:hover
 {
     color: black;
-    border-top: solid 1px #0065fc;
+    border-top: solid 2px #0065fc;
 }
 
 nav ul li:hover
 {
     color: #0065fc;
-    border-top: solid 1px #0065fc;
+    border-top: solid 2px #0065fc;
 }
 
 h2
